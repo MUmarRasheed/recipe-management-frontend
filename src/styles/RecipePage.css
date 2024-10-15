@@ -1,0 +1,210 @@
+.recipe-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-page h2 {
+  color: #ff7f50;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.recipe-page .add-recipe {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-page .add-recipe input {
+  width: calc(100% - 20px);
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.recipe-page .add-recipe input:focus {
+  border-color: #ff7f50;
+  outline: none;
+}
+
+.recipe-page .add-recipe button {
+  background-color: #ff7f50;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  margin-left: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.recipe-page .add-recipe button:hover {
+  background-color: #ff5722;
+  transform: translateY(-2px);
+}
+
+.recipe-page .add-recipe button:active {
+  background-color: #ff4500;
+  transform: translateY(0);
+}
+
+.recipe-page .ingredient-fields,
+.recipe-page .step-fields {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-page .ingredient-fields input,
+.recipe-page .step-fields input {
+  flex: 1;
+}
+
+.recipe-page ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.recipe-page li {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-page li h3 {
+  color: #ff7f50;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.recipe-page li ul {
+  margin: 1rem 0;
+}
+
+.recipe-page li ul li {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.recipe-page li ol {
+  padding-left: 1.2rem;
+}
+
+.recipe-page li ol li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.navigation-links {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.navigation-links a {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navigation-links a:hover {
+  background-color: #ff4500;
+  transform: translateY(-2px);
+}
+
+.navigation-links a:active {
+  background-color: #ff6347;
+  transform: translateY(0);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.recipe-page .add-recipe h4 {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  color: #ff7f50;
+}
+
+.recipe-page .add-recipe .ingredient-fields,
+.recipe-page .add-recipe .step-fields {
+  background: #f9f9f9;
+  padding: 0.7rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.recipe-page .add-recipe .ingredient-fields input,
+.recipe-page .add-recipe .step-fields input {
+  border: 1px solid #ccc;
+}
+
+.recipe-page .add-recipe button.add-more {
+  background-color: #ff7f50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-page .add-recipe button.add-more:hover {
+  background-color: #ff5722;
+}
+.success-message {
+  color: green;
+  font-size: 1rem;
+  margin-top: 1rem; /* Add margin to separate from buttons */
+}
+
+.recipe-page .add-recipe .submit-recipe {
+  margin-top: 1rem; /* Create space above the Add Recipe button */
+}
+.remove-button {
+  background-color: #1a0c07;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px; /* Keep this to separate from the title */
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #083a35; /* Darken on hover */
+  transform: translateY(-2px); /* Optional: lift the button slightly on hover */
+}
+
+.remove-button:active {
+  background-color: #3d0b02; /* Slightly darker when active */
+  transform: translateY(0); /* Reset any hover transformation */
+}

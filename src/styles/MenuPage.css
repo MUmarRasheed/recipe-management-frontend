@@ -1,0 +1,120 @@
+.menu-page {
+  /* margin: 2rem; */
+  font-family: 'Arial', sans-serif;
+}
+
+.menu-page h2 {
+  color: #a25a5a;
+  /* font-size: 2.5rem; */
+  text-align: center;
+}
+
+
+
+.day-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-bottom: 0; /* Remove margin below the day selection */
+}
+
+.day-button {
+  background-color: #e0e0e0; /* Default background for day buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; /* Adjusted font size for readability */
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 0; /* Remove margin between buttons */
+  padding: 0.5rem 1rem; /* Add some padding to the buttons */
+}
+
+.day-button.selected {
+  background-color: #4caf50; /* Green color for selected day */
+  color: white; /* Change text color for visibility */
+  transform: scale(1.05); /* Slight scale effect for selection */
+}
+
+.day-button:hover {
+  background-color: #d1d1d1; /* Light gray on hover */
+}
+
+.meal-type-selection {
+  display: flex;
+  justify-content: center; /* Center the meal type buttons */
+  margin-top: 1rem; /* Adjusted margin to create gap above */
+  margin-bottom: 1rem; /* Small gap below the meal type buttons */
+}
+
+.meal-type-button {
+  background-color: #e0e0e0; /* Default background for meal type buttons */
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem; /* Smaller padding for the buttons */
+  margin: 0.3rem; /* Reduced margin between meal type buttons */
+  cursor: pointer;
+  font-size: 14px; /* Adjusted font size for readability */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.meal-type-button.selected {
+  background-color: #4caf50; /* Green color for selected meal type */
+  color: white; /* Change text color for visibility */
+  transform: scale(1.05); /* Slight scale effect for selection */
+}
+
+.menu-page input {
+  width: 60%;
+  padding: 0.7rem;
+  margin: 0.5rem 0; /* Reduced top margin for smaller gap */
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.menu-page button {
+  background-color: #366536; /* Primary action button color */
+  color: white;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0.5rem 0; /* Same margin for consistency */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu-page button:hover {
+  background-color: #3f8e46; /* Darker shade for hover state */
+}
+
+.menu-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-page li {
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.recipe-details {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.recipe-details h3 {
+  margin: 0;
+}
+
+.recipe-details h4 {
+  margin: 10px 0 5px;
+}
+
+.success-message {
+  color: green; /* Color for the success message */
+  font-weight: bold; /* Bold text */
+  margin-top: 1rem; /* Spacing above the message */
+}
